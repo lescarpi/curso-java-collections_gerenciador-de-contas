@@ -34,6 +34,14 @@ public class Curso {
         this.aulas.add(aula);
     }
 
+    public void matricula(Aluno aluno) {
+        this.alunos.add(aluno);
+    }
+
+    public boolean isMatriculado(Aluno aluno) {
+        return this.alunos.contains(aluno);
+    }
+
     public int getTempoTotal() {
         return this.aulas.stream().mapToInt(Aula::getTempo).sum();
     }
