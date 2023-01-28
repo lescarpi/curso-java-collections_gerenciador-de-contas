@@ -15,7 +15,12 @@ public class TestandoListas {
         aulas.add(aula2);
         aulas.add(aula3);
 
-        aulas.forEach((a) -> System.out.println(a) );
+        System.out.println(aulas.toString());
+
+        aulas.remove("Conhecendo mais de listas");
+        aulas.remove(0);
+
+        System.out.println(aulas.toString());
 
     }
 
