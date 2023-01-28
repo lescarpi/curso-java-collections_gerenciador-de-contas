@@ -17,7 +17,7 @@ public class TestaCursoComAluno {
         curso.matricula(new Aluno("Matheus Rizzo", 10432));
 
         Aluno a2 = new Aluno("Vinicius de Lima Garcia", 35741);
-        System.out.println(curso.isMatriculado(a2));
+        System.out.println(curso.estaMatriculado(a2));
         System.out.println(a1.equals(a2));
 
     }
