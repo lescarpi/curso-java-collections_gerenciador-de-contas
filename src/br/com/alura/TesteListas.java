@@ -2,7 +2,7 @@ package br.com.alura;
 
 import java.util.ArrayList;
 
-public class TestandoListas {
+public class TesteListas {
 
     public static void main(String[] args) {
 
